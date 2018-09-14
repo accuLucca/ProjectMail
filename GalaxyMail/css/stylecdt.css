@@ -38,3 +38,9 @@ button{
 button:active{
 	background-color: #04B486
 }
+.erro{
+    border-color: red;
+}
+.erro::placeholder{
+    color: red;
+}

@@ -3,7 +3,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(../img/glxy.jpg);
+  background: url(../img/background.jpg);
   background-size: cover;
   font-family: sans-serif;
   background-position: no-repeat;
@@ -20,6 +20,8 @@ body{
   transform: translate(-50%,-50%);
   box-sizing: border-box;
   padding: 70px 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 100px #4B088A;
 }
 
 .avatar{
@@ -30,12 +32,23 @@ body{
   top: -50px;
   left: calc(50% - 50px);
 }
-
+@font-face{
+  font-family:'BurbankBigCondensed-Black';
+  src:url("fonts/BurbankBigCondensed-Black.eot");
+  src: url('fonts/BurbankBigCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BurbankBigCondensed-Black.woff') format('woff'),
+        url('fonts/BurbankBigCondensed-Black.ttf') format('truetype'),
+        url('fonts/BurbankBigCondensed-Black.svg#Calibri') format('svg'),
+        url('fonts/BurbankBigCondensed-Black.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 h1{
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
-  font-size: 22px;
+  font-size: 50px;
+  font-family:"BurbankBigCondensed-Black"
 }
 
 .loginbox p{
@@ -65,7 +78,7 @@ h1{
   border: none;
   outline: none;
   height: 40px;
-  background: #fb2525;
+  background: #7401DF;
   color: white;
   font-size: 18px;
   border-radius: 20px;

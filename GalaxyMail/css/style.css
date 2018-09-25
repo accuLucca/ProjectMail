@@ -4,9 +4,10 @@ body{
   margin: 0;
   padding: 0;
   background: url(../img/galaxyfundo.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   font-family: sans-serif;
   background-position: no-repeat;
+  background-attachment:fixed;
 }
 
 .loginbox{

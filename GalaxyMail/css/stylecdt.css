@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* tela de cadastro */
 .A tr td{
 	padding: 10px;
@@ -11,6 +12,27 @@
 .A tr:first-child{
 	background-color: black;
 	color: white;
+=======
+@font-face{
+  font-family:'BurbankBigCondensed-Black';
+  src:url("fonts/BurbankBigCondensed-Black.eot");
+  src: url('fonts/BurbankBigCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BurbankBigCondensed-Black.woff') format('woff'),
+        url('fonts/BurbankBigCondensed-Black.ttf') format('truetype'),
+        url('fonts/BurbankBigCondensed-Black.svg#Calibri') format('svg'),
+        url('fonts/BurbankBigCondensed-Black.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../img/galaxyfundo.jpg);
+  background-size: 100% 100%;
+  font-family: sans-serif;
+  background-position: no-repeat;
+  background-attachment:fixed;
+>>>>>>> 8e4010877c290f53c05334b13efee67501f36502
 }
 input{
 	margin-top:3px; 
@@ -19,22 +41,23 @@ input{
 	border-color: #CCC;
 	border-radius: 2px;
 	border-width: 1px;
-	font-family: "Arial";
+    font-family: "BurbankBigCondensed-Black"
 }
 input:focus{
-	outline-color: red;
-	box-shadow: 0 0 10px gray;
+	outline-color: rebeccapurple;
+	box-shadow: 0 0 10px rebeccapurple;
 }
 #button{
 	height: 20px;
 }
 button{
-	background-color: #088A68;
+	background-color: #7401DF;
 	height:40px;
 	width: 100px;
 	border-width: 0px;
 	border-radius: 2px;
 	color: #FFFFFF;
+    font-family: "BurbankBigCondensed-Black"
 }
 button:active{
 	background-color: #04B486

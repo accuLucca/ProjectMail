@@ -1,18 +1,18 @@
 $(document).ready(function(){
     $("#Salvar").click(function(){
-        if ($("#nome").val() == "") {
-            $("#nome").addClass("erro");
+        if ($("#name").val() == "") {
+            $("#name").addClass("erro");
         }
         else{
-            $("#nome").removeClass("erro");
+            $("#name").removeClass("erro");
         }
     });
     $("#Salvar").click(function(){
-        if ($("#sobrenome").val() == "") {
-            $("#sobrenome").addClass("erro");
+        if ($("#lastName").val() == "") {
+            $("#lastName").addClass("erro");
         }
         else{
-            $("#sobrenome").removeClass("erro");
+            $("#lastName").removeClass("erro");
         }
     });
     $("#Salvar").click(function(){

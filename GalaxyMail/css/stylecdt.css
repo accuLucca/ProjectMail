@@ -11,11 +11,8 @@
     font-style: normal;
 }
 body{
-  margin: 0;
-  padding: 0;
   background: url(../img/galaxyfundo.jpg);
   background-size: 100% 100%;
-  font-family: sans-serif;
   background-position: no-repeat;
   background-attachment:fixed;
 }
@@ -23,8 +20,10 @@ input{
 	margin-top:3px; 
 	padding:10px;
 	padding-left: 20px;
+	margin: auto; 
 	border-color: #CCC;
 	border-radius: 2px;
+
 	border-width: 1px;
     font-family: "BurbankBigCondensed-Black"
 }

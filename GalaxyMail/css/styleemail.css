@@ -1,0 +1,16 @@
+@font-face{
+  font-family:'BurbankBigCondensed-Black';
+  src:url("fonts/BurbankBigCondensed-Black.eot");
+  src: url('fonts/BurbankBigCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BurbankBigCondensed-Black.woff') format('woff'),
+        url('fonts/BurbankBigCondensed-Black.ttf') format('truetype'),
+        url('fonts/BurbankBigCondensed-Black.svg#Calibri') format('svg'),
+        url('fonts/BurbankBigCondensed-Black.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: url(../img/galaxyfundo.jpg);
+    font-family:"BurbankBigCondensed-Black";
+    color: hotpink;
+}

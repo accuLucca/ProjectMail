@@ -20,32 +20,32 @@ body{
   background-attachment:fixed;
 }
 input{
-	margin-top:3px; 
-	padding:10px;
-	padding-left: 20px;
-	border-color: #CCC;
-	border-radius: 2px;
-	border-width: 1px;
+  margin-top:3px; 
+  padding:10px;
+  padding-left: 20px;
+  border-color: #CCC;
+  border-radius: 2px;
+  border-width: 1px;
     font-family: "BurbankBigCondensed-Black"
 }
 input:focus{
-	outline-color: rebeccapurple;
-	box-shadow: 0 0 10px rebeccapurple;
+  outline-color: rebeccapurple;
+  box-shadow: 0 0 10px rebeccapurple;
 }
 #button{
-	height: 20px;
+  height: 20px;
 }
 button{
-	background-color: #7401DF;
-	height:40px;
-	width: 100px;
-	border-width: 0px;
-	border-radius: 2px;
-	color: #FFFFFF;
+  background-color: #7401DF;
+  height:40px;
+  width: 100px;
+  border-width: 0px;
+  border-radius: 2px;
+  color: #FFFFFF;
     font-family: "BurbankBigCondensed-Black"
 }
 button:active{
-	background-color: #04B486
+  background-color: #04B486
 }
 .erro{
     border-color: red;

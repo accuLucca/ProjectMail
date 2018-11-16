@@ -17,15 +17,15 @@ body{
 .menubox input[type="submit"]
 {
   border: none;
-    font-family:"BurbankBigCondensed-Black";
+  font-family:"BurbankBigCondensed-Black";
   outline: none;
   height: 30px;
   background: #7401DF;
   color: white;
   font-size: 20px;
   border-radius: 3px;
-    margin-bottom: 5px;
-    width: 130px;
+  margin-bottom: 5px;
+  width: 130px;
 }
 
 .menubox input[type="submit"]:hover
@@ -35,18 +35,18 @@ body{
   color: #000;
 }
 #pesquisa{
-    font-family:"BurbankBigCondensed-Black";
-    width: 400px;
-    height: 25px;
-    border-radius: 3px;
-    margin-bottom: 5px;
-    border: none;
-    color: #ffc107;
-    font-size: 20px;
-    background: rgba(255, 255, 255, 0.50);
-    padding-left: 15px;
+  font-family:"BurbankBigCondensed-Black";
+  width: 400px;
+  height: 25px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  border: none;
+  color: #ffc107;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.50);
+  padding-left: 15px;
 }
 ::placeholder {
-    color: white;
-    opacity: 1;
+  color: white;
+  opacity: 1;
 }

@@ -23,7 +23,7 @@ input{
   border-color: #CCC;
   border-radius: 2px;
   border-width: 1px;
-    font-family: "BurbankBigCondensed-Black"
+  font-family: "BurbankBigCondensed-Black"
 }
 input:focus{
   outline-color: rebeccapurple;
@@ -33,15 +33,18 @@ input:focus{
   height: 20px;
 }
 button{
+  font-size: 20px;
   background-color: #7401DF;
-  height:40px;
-  width: 265px;
+  height:20px;
+  width: 100px;
   border-width: 0px;
   border-radius: 2px;
   color: #FFFFFF;
-    font-family: "BurbankBigCondensed-Black"
+  font-family: "BurbankBigCondensed-Black"
 }
-button:active{
+button:hover
+{
+  cursor: pointer;
   background-color: #04B486
 }
 .erro{
@@ -87,12 +90,11 @@ h1{
 .loginbox input[type="text"],input[type="password"],input[type="email"],input[type="sobrenome"],input[type="nome"]
 {
   background: black;
-
-    border-left-color: black;
-    border-right-color: black;
-    border-top-color: black;
+  border-left-color: black;
+  border-right-color: black;
+  border-top-color: black;
   height: 12px;
-    width: 235px;
+  width: 235px;
   color: white;
   font-size: 16px;
 }
@@ -101,7 +103,7 @@ h1{
 {
   border: none;
   outline: none;
-  height: 40px;
+  height: 30px;
   background: #7401DF;
   color: white;
   font-size: 30px;

@@ -15,7 +15,8 @@ body {
     background: url(../img/galaxyfundo.jpg);
     color: white;
 }
-input{
+
+input {
     font-family: "BurbankBigCondensed-Black";
     width: 50%;
     height: 25px;
@@ -27,11 +28,14 @@ input{
     background: rgba(255, 255, 255, 0.50);
     padding-left: 15px;
 }
-.box{
-    position: center;
+
+#box {
+    padding: 70px 0;
+    position: absolute;
+    margin: 0 auto;
 }
 
-#texto{
+#texto {
     font-family: "BurbankBigCondensed-Black";
     width: 50%;
     height: 200px;

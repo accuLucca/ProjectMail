@@ -13,6 +13,9 @@
 body {
     font-family: "BurbankBigCondensed-Black" !important;
     background: url(../img/galaxyfundo.jpg);
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    background-attachment: fixed;
     color: #000000;
 }
 
@@ -61,11 +64,13 @@ body {
     border: none;
     margin-bottom: 260px
 }
-#novamsgm{
+
+#novamsgm {
     font-family: "BurbankBigCondensed-Black";
     font-size: 20px;
 
 }
-.linha{
+
+.linha {
     width: 95%;
 }

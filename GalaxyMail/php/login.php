@@ -14,8 +14,5 @@
 				header("Location: ../paginas/email.html");
 			}
 		}
-
-	} else {
-		header("Location: ../paginas/erro.html");
-	}
+	} 
 ?>

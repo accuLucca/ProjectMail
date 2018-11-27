@@ -12,6 +12,10 @@
 		<email>leonobrestati@gmail.com</email>
 		<password>leo123</password>
 	</usuario>
+	<usuario>
+		<email>admin</email>
+		<password>admin</password>
+	</usuario>
 </usuarios>
 
 

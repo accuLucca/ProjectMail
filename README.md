@@ -1,7 +1,7 @@
 # ProjectMail
-Projeto para disciplina PW
+Project for web programming discipline
 
-Integrantes :
+Collaborators :
 
 Lucca Bulara
 

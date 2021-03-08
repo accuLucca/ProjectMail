@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <usuarios>
 	<usuario>
-		<email>itamar.e.junior@gmail.com</email>
+		<email>email@gmail.com</email>
 		<password>itamar123</password>
 	</usuario>
 	<usuario>
-		<email>lbulara@gmail.com</email>
-		<password>bulara123</password>
+		<email>email@gmail.com</email>
+		<password>senha123</password>
 	</usuario>
 	<usuario>
-		<email>leonobrestati@gmail.com</email>
+		<email>email@gmail.com</email>
 		<password>leo123</password>
 	</usuario>
 	<usuario>
